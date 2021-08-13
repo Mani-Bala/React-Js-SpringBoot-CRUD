@@ -1,9 +1,10 @@
-import logo from './logo.svg';
 import './App.css';
+import ListEmployeeComponent from './components/ListEmployeeComponent';
+
 function App() {
   return (
-    <div class="App">
-      <h1>Hai mani</h1>
+    <div className="container">
+      <ListEmployeeComponent />
     </div>
   )
 };
